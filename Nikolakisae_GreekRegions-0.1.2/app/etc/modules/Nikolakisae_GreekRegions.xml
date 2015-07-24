@@ -1,0 +1,9 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nikolakisae_GreekRegions>
+            <active>true</active>
+            <codePool>community</codePool>
+        </Nikolakisae_GreekRegions>
+    </modules>
+</config>

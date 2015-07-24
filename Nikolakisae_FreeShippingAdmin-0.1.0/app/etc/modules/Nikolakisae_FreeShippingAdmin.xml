@@ -1,0 +1,12 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nikolakisae_FreeShippingAdmin>
+            <active>true</active>
+            <codePool>community</codePool>
+               <depends>
+                 <Mage_Shipping />
+            </depends>
+        </Nikolakisae_FreeShippingAdmin>
+    </modules>
+</config>

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nikolakisae_FreeShippingAdmin>
+            <version>0.1.0</version>
+        </Nikolakisae_FreeShippingAdmin>
+    </modules>
+    <global>
+        <models>
+            <shipping>
+                <rewrite>
+                    <config>Nikolakisae_FreeShippingAdmin_Model_Shipping_Config</config>
+                </rewrite>
+            </shipping>
+            <sales>
+                <rewrite>
+                    <quote_address>Nikolakisae_FreeShippingAdmin_Model_Sales_Quote_Address</quote_address>
+                </rewrite>
+            </sales>
+        </models>
+    </global>
+    <default>
+        <carriers>
+            <freeshipping>
+                <show_only_admin>0</show_only_admin>
+            </freeshipping>
+        </carriers>
+    </default>
+</config>

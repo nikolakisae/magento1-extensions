@@ -1,0 +1,13 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nikolakisae_ShippingLogo>
+            <active>true</active>
+            <codePool>community</codePool>
+              <depends>
+                 <Mage_Checkout/>
+                 <Mage_Shipping/>
+            </depends>
+        </Nikolakisae_ShippingLogo>
+    </modules>
+</config>

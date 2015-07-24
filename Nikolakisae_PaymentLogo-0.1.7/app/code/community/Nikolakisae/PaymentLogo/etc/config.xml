@@ -1,0 +1,34 @@
+<?xml version="1.0"?>
+<config>
+    <modules>
+        <Nikolakisae_PaymentLogo>
+            <version>0.1.7</version>
+        </Nikolakisae_PaymentLogo>
+    </modules>
+    <global>
+        <models>
+            <paymentlogo>
+                <class>Nikolakisae_PaymentLogo_Model</class>
+            </paymentlogo>
+        </models>
+        <blocks>
+            <paymentlogo>
+                <class>Nikolakisae_PaymentLogo_Block</class>
+            </paymentlogo>
+            <checkout>
+                <rewrite>
+                    <onepage_payment_methods>Nikolakisae_PaymentLogo_Block_Checkout_Onepage_Payment_Methods</onepage_payment_methods>
+                </rewrite>
+            </checkout>
+        </blocks>
+    </global>
+    <frontend>
+        <layout>
+            <updates>
+                <paymentlogo>
+                    <file>paymentlogo.xml</file>
+                </paymentlogo>
+            </updates>
+        </layout>
+    </frontend>
+</config>
