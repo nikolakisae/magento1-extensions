@@ -1,0 +1,18 @@
+<?xml version="1.0"?>
+<package>
+    <name>Nikolakisae_FreeShippingAdmin</name>
+    <version>0.1.0</version>
+    <stability>stable</stability>
+    <license uri="http://opensource.org/licenses/osl-3.0.php">Open Software License (OSL)</license>
+    <channel>community</channel>
+    <extends/>
+    <summary>Free Shipping Admin</summary>
+    <description>Enable Free Shipping Method only for Admin Users (Backend).</description>
+    <notes>Stable release for Magento Vesrion 1.7, 1.8 and 1.8.1</notes>
+    <authors><author><name>Niko K</name><user>nikolakisae</user><email>info@nikolakisae.com</email></author></authors>
+    <date>2014-05-11</date>
+    <time>14:15:50</time>
+    <contents><target name="magecommunity"><dir name="Nikolakisae"><dir name="FreeShippingAdmin"><dir name="Model"><dir name="Sales"><dir name="Quote"><file name="Address.php" hash="75cdc1816702bac0fb5fe718b213f8de"/></dir></dir><dir name="Shipping"><file name="Config.php" hash="2ad1f2ef30a9c495b4de8114d970e65a"/></dir></dir><dir name="etc"><file name="config.xml" hash="0f81c406dcf1aca340e3fb5da0e1e328"/><file name="system.xml" hash="d4e5615eea0915a7940eefecfe07b0f4"/></dir></dir></dir></target><target name="mageetc"><dir name="modules"><file name="Nikolakisae_FreeShippingAdmin.xml" hash="2b6a492b55bcc91e202f5d40232d4507"/></dir></target></contents>
+    <compatible/>
+    <dependencies><required><php><min>5.2.13</min><max>6.0.0</max></php></required></dependencies>
+</package>
