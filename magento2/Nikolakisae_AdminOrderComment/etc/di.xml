@@ -1,5 +1,0 @@
-<?xml version="1.0"?>
-<config>
-    <preference for="Magento\Sales\Controller\Adminhtml\Order\AddComment" type="Nikolakisae\AdminOrderComment\Controller\Sales\Adminhtml\Order\AddComment" />
-    <preference for="Magento\Sales\Block\Adminhtml\Order\View\Tab\History" type="Nikolakisae\AdminOrderComment\Block\Sales\Adminhtml\Order\View\Tab\History" />
-</config>
